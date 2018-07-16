@@ -9,27 +9,24 @@
 
 body {
     background: url('background.jpg');
+    color: white;
     font-family: Quicksand, sans-serif;
 }
 
 .main {
-    /* background-color: #968580; */
     background-color: #34262D;
-    color: white;
     height: 175px;
     width:400px;
     margin: 100px auto;
-    position: relative; /*anything other than static and inherit*/
+    position: relative;
     padding: 30px;
     box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
 }
 
 .badge {
     background-color: #09291C;
-    /* font-family: Quicksand, sans-serif; */
     font-weight: bold;
     width: 96px;
-    /* margin: 0 auto; */
     text-align: center;
     padding: 5px 10px;
     position: absolute;
@@ -38,13 +35,19 @@ body {
 }
 
 .clock {
-    /* background-color: #34262D; */
     background-color: #96858055;
-    
-    /* font-family: Orbitron, sans-serif; */
     font-size: 55px;
     text-align: center;
     height: 100%;
     padding-top: 25px;
     border-radius: 4px;
+}
+
+#sign-off {
+    background-color: #09291C88;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px;
 }
