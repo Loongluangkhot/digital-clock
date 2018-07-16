@@ -13,3 +13,14 @@ const second = fullDate.getSeconds()
 hourSelector.innerHTML = `${hour} :`
 minuteSelector.innerHTML = `${minute} :`
 secondSelector.innerHTML = `${second}`
+
+// function takes in number as argument, and convert number to length-2 string
+function twoChar(number) {
+    let twoCharStr = ''
+    if (number < 10) {
+        twoCharStr = `0${number}`
+    } else {
+        twoCharStr = `${number}`
+    }
+    return twoCharStr
+}
