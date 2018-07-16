@@ -51,3 +51,8 @@ body {
     padding: 5px;
     border-radius: 20px;
 }
+
+#my-github {
+    text-decoration: none;
+    color: white;
+}
